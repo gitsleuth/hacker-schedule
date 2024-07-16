@@ -1,0 +1,79 @@
+﻿body {
+    background-color: #FAEFD6
+}
+
+/*fonts*/
+
+.slackey {
+    font-family: "Slackey", sans-serif
+}
+
+.gaegu {
+    font-family: "Gaegu", sans-serif
+}
+
+.a {
+    font-size: 48px;
+    color: #FF8C37;
+    text-align: center;
+    margin-bottom: 0
+}
+
+@media screen and (min-width: 48em) {
+    .a {
+        padding-top: 64px
+    }
+}
+
+.b {
+    text-align: center;
+    display: block;
+    padding-bottom: 8px
+}
+
+@media screen and (min-width: 32em) {
+    .b {
+        font-size: 24px
+    }
+}
+
+.c {
+    text-align: center;
+    display: block;
+    color: #28CCD1
+}
+
+@media screen and (min-width: 32em) {
+    .c {
+        font-size: 48px
+    }
+}
+
+.d {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: grid;
+    grid-gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    max-width: 1000px;
+    width: 80vw;
+    margin: auto;
+    -webkit-text-decoration: italic;
+    text-decoration: italic;
+}
+
+@media screen and (min-width: 64em) {
+    .d {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.e {
+    display: flex;
+    background-color: rgb(40, 204, 209);
+    flex-direction: column
+}
